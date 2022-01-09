@@ -1,0 +1,19 @@
+{
+  "name": "gatinhos",
+  "version": "1.0.0",
+  "description": "gatinhos fofinhos",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nellfs/Gatinhos.git"
+  },
+  "author": "nellfs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nellfs/Gatinhos/issues"
+  },
+  "homepage": "https://github.com/nellfs/Gatinhos#readme"
+}

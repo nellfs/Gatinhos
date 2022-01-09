@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black
+}
+
+body{
+    font-size: 100%;
+    background-color: #f5e021;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logo{
+    height: 28px;
+}
+
+.cabecalho-menu{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 32px;
+    font-weight: 200;
+}
+
+.cabecalho-opcao:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(224, 210, 13);
+}
+
+.gato-imagem{
+    border-radius: 2%;
+    height: 345px;
+}
+
+.title{
+    margin-top: 15px;
+}
+
+.conteudo-principal{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    margin-top: 26px;
+    background: linear-gradient(#f0b71b, #db930d);
+    width: 180px;
+    outline: none;
+    cursor: pointer;
+    height: 60px;
+    border: none;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.10);
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.botao:hover{
+    margin-top: 26px;
+    background: linear-gradient(#9b791b, #a06c0b);
+    width: 180px;
+    outline: none;
+    cursor: pointer;
+    height: 60px;
+    border: none;
+    box-shadow: 3px 2px 3px rgba(0, 10, 0, 0.10);
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
